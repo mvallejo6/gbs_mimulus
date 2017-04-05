@@ -3,8 +3,8 @@ from Bio import Seq
 import re 
 
 #python program location: cd ~/projects/mim-uv/analyses
-#datapath = "../../mluteus_genome/"
-filename = "mimseq.fasta"
+datapath = "../genome_data/"
+filename = "Mimulus_guttatus_luteus_combines.fasta"
 
 ###To read FASTA files use:
 #records = SeqIO.parse(datapath + filename, "fasta")
